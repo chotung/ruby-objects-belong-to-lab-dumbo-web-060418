@@ -6,6 +6,6 @@ class Post
     @title = title
     @author = author
   end
-  # binding.pry
+  binding.pry
 end
 
