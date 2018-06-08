@@ -1,9 +1,9 @@
 require 'pry'
 class Post
-  attr_accessor :name
+  attr_accessor :title
   
-  def initialize(name="Uncle Bob")
-    @name = name
+  def initialize(title="Hello World")
+    @title = title
   end
   # binding.pry
 end
