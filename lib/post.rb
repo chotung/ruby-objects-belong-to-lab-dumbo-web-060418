@@ -4,7 +4,7 @@ class Post
   
   def initialize(title="Hello World", author)
     @title = title
-    @author
+    @author = author
   end
   # binding.pry
 end
